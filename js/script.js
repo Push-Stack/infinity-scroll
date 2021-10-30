@@ -44,7 +44,7 @@ const displayPhotos = () => {
     item.setAttribute("target", "_blank");
 
     const image = document.createElement("img");
-    image.setAttribute("src", photo.urls.small);
+    image.setAttribute("src", photo.urls.regular);
     image.setAttribute("alt", photo.description);
     image.setAttribute("title", photo.description);
 
